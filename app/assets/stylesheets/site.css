@@ -54,8 +54,8 @@ h1 {
   float: right;
   top: 0;
   right: 0;
-  margin-right: 10%;
-  background-color: blue;
+  margin-right: 3%;
+  width: 158px;
 }
 
 #about {
@@ -78,6 +78,10 @@ h1 {
   width: 70%;
 }
 
+#languages ul li {
+  display: inline;
+}
+
 #highlights ul li {
   display: inline;
   padding: 25px;
@@ -89,4 +93,20 @@ h1 {
   border: 2px solid #FFF;
   -webkit-box-shadow: 0 3px 10px #888;
   cursor: pointer;
+}
+
+.br-flag {
+  width: 50px;
+  height: 46px;
+  background: url(country-flags.png);
+  background-position-x: 249px;
+  background-position-y: -96px;
+}
+
+.us-flag {
+  width: 50px;
+  height: 46px;
+  background: url(country-flags.png);
+  background-position-x: 249px;
+  background-position-y: -96px;
 }
