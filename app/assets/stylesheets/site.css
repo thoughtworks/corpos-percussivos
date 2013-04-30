@@ -4,6 +4,27 @@ body {
   background-color: #8B1A1A;
 }
 
+body, h1, h2, h3, h4, form, fieldset, input, label, p, em, strong, a, img, ul, li {
+  font-style: normal;
+  list-style-type: none;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 960px;
+}
+
+.container:before, .container:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.container:after {
+  clear: both;
+}
+
 h1 {
   width: 95%;
   border-bottom: 5px solid #8B1A1A;
@@ -25,27 +46,27 @@ h1 {
 }
 
 #welcome {
-  height: 860px;
+  height: 830px;
   background-color: #FFEBCD;
 }
 
 #first {
-  height: 860px;
+  height: 830px;
   background-color: #EEE8AA;
 }
 
 #second {
-  height: 860px;
+  height: 830px;
   background-color: #FFEFDB;
 }
 
 #third {
-  height: 860px;
+  height: 830px;
   background-color: #FFEBCD;
 }
 
 #fourth {
-  height: 860px;
+  height: 830px;
   background-color: #EEE8AA;
 }
 
