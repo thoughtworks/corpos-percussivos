@@ -3,16 +3,63 @@
   <head>
     <title>Corpos Percussivos</title>
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="author" content="Corpos Percussivos"/>
     <meta name="description" content="Corpos Percussivos" />
-    <meta name="keywords" content="recife, maracatu" />
+    <meta name="keywords" content="recife, maracatu, ong" />
+    
+    <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
     <%= stylesheet_link_tag "application", :media => "all" %>
+    <%= stylesheet_link_tag "bootstrap", :media => "all" %>
+    <%= stylesheet_link_tag "site", :media => "all" %>
+    <%= stylesheet_link_tag "bootstrap-responsive", :media => "all" %>
     <%= csrf_meta_tags %>
   </head>
   
   <body>
-  <%= yield %>
-  <%= javascript_include_tag "application" %>
-  </body>
+  	<!-- Header  -->
+	<a name="top"> </a>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="#" onclick="scrollToAnchor('quem-somos');">Quem Somos</a></li>
+              <li><a href="#" onclick="scrollToAnchor('tambores');">Tambores do Pilar</a></li>
+              <li><a href="#" onclick="scrollToAnchor('10anos');">10 anos</a></li>
+              <li><a href="#contact">Parceiros</a></li>
+              <li><a href="#" onclick="scrollToAnchor('contatos');">Contatos</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  	<%= yield %>
+  	
+    <div class="footer">
+    	<a name="contatos"> </a>
+	   	<div class="footer-logo"> </div>
+	    <div class="row">
+			<div class="span4 offset2">
+				<h4> Grupo Corpos Percussivos </h4>
+				Rua do Recife, 123 - Bairro do Recife <br/>
+				Recife/PE - Brasil <br />
+				+55 81 9999-9999 <br />
+				<i class="icon-envelope icon-white"></i> <a href="mailto:contato@corpospercussivos.org.br?subject=Contato">E-mail</a>
+			</div>
+			<div class="span4"> 
+				<ul>
+					<li>Facebook</li>
+					<li>Twitter</li>
+					<li>Google+</li>
+				</ul>	
+			</div>
+		</div>
+    </div>
+
+	<%= javascript_include_tag "application" %>
+	<%= javascript_include_tag "ui" %>
 </html>
