@@ -1,5 +1,5 @@
 body {
-	padding-top: 30px;
+	padding-top: 40px;
 	background: #FFB;
 	background: #FEE275;
 	color: #922;
@@ -28,10 +28,6 @@ img.logo-section { width: 240px; text-align: center;}
 .nav {
 	font-size: 1.2em;
 	font-weight: bold;
-}
-
-.nav img {
-	padding-top: 4px;
 }
 
 .navbar-inverse .navbar-inner  { background: #822; }
