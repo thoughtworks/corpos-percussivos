@@ -9,8 +9,8 @@
     <meta name="keywords" content="recife, maracatu, ong" />
     
     <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
     <%= stylesheet_link_tag "application", :media => "all" %>
     <%= stylesheet_link_tag "bootstrap", :media => "all" %>
     <%= stylesheet_link_tag "site", :media => "all" %>
@@ -26,12 +26,19 @@
         <div class="container">
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li><a href="#" onclick="scrollToAnchor('quem-somos');">Quem Somos</a></li>
+              <li><a href="#" onclick="scrollToAnchor('quem-somos');"> <%=t :about_us %> </a></li>
               <li><a href="#" onclick="scrollToAnchor('tambores');">Tambores do Pilar</a></li>
-              <li><a href="#" onclick="scrollToAnchor('10anos');">10 anos</a></li>
-              <li><a href="#contact">Parceiros</a></li>
-              <li><a href="#" onclick="scrollToAnchor('contatos');">Contatos</a></li>
+              <li><a href="#" onclick="scrollToAnchor('10anos');"> <%=t :ten_years %> </a></li>
+              <li><a href="#partners"><%=t :sponsors %></a></li>
+              <li><a href="#" onclick="scrollToAnchor('contatos');"><%=t :contact %></a></li>
             </ul>
+            
+            <ul class="nav pull-right">
+            	<li> <a href="?locale=pt"><img src="/assets/brazil-flag.png" title="Versão em português"></a> </li>
+            	<li> <a href="?locale=en"><img src="/assets/us-flag.png" title="English version"></a> </li>
+            	<li> <a href="?locale=es"><img src="/assets/spain-flag.png" title="Versión en español"></a> </li>
+            </ul>
+            </div>
           </div>
         </div>
       </div>
