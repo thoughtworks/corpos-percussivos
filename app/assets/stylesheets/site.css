@@ -109,7 +109,7 @@ section .back-link {
 
 /* Footer */
 .footer .row{
-	background: #111;
+	background: #000;
 	color: #FEB;
 	height: 140px;	
 	margin: 0;
@@ -122,12 +122,11 @@ section .back-link {
 }
 
 .footer-logo {
-	margin: 50px 0 0 0;
+	margin: 50px 10px 0 0;
 	background: url('footer_logo.png') right 0 no-repeat;
 	background-size: 250px;
 	height: 64px;
 	padding: 10px;
-	border-bottom: 10px solid black;	
 }
 
 .footer a, .footer a:visited, .footer a:active, .footer a:hover { color: #FFF; }

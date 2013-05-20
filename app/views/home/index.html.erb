@@ -2,7 +2,7 @@
 	<div class="hero-unit">
 		<div class="row-fluid welcome-section">
 			<div class="span5 offset1 texto-apresentacao">
-				<p> <img src="assets/logo.png" id="logo"/> <br />
+				<p> <img src="/assets/logo.png" id="logo"/> <br />
 					É uma entidade do terceiro setor que desenvolve atividades de ensino 
 					e criação musical na Região Metropolitana do Recife
 				</p>
@@ -16,21 +16,21 @@
 	<div class="row-fluid photo-menu">
 		<div class="span3"> 
 			<span class="badge badge-important">
-				<a href="#" onclick="scrollToAnchor('quem-somos');">Quem Somos</a>
+				<a href="#" onclick="scrollToAnchor('quem-somos');"><%=t :about_us %> </a>
 			</span>
-			<img src="assets/criancas.jpg" class="img-polaroid">	
+			<img src="/assets/criancas.jpg" class="img-polaroid">	
 		</div>
 		<div class="span3"> 
 			<span class="badge badge-important">Tambores do Pilar</span>
-			<img src="assets/carnaval.jpg" class="img-polaroid">	
+			<img src="/assets/carnaval.jpg" class="img-polaroid">	
 		</div>
 		<div class="span3"> 
-			<span class="badge badge-important">10 anos</span>
-			<img src="assets/criancas.jpg" class="img-polaroid">	
+			<span class="badge badge-important"><%=t :ten_years %></span>
+			<img src="/assets/criancas.jpg" class="img-polaroid">	
 		</div>
 		<div class="span3"> 
-			<span class="badge badge-important">Parceiros</span>
-			<img src="assets/partners.jpg" class="img-polaroid">	
+			<span class="badge badge-important"><%=t :sponsors %></span>
+			<img src="/assets/partners.jpg" class="img-polaroid">	
 		</div>
 	</div>
 
@@ -38,10 +38,10 @@
 		<a name="quem-somos"> </a>
 
 		<h2>  Quem somos</h2>
-		<a class="back-link" href="javascrip: void;" onclick="scrollToAnchor('top');">^ Início</a>
+		<a class="back-link" href="javascrip: void;" onclick="scrollToAnchor('top');">^ <%=t :top %></a>
 
 	    <div class="section-img">
-			<img src="assets/criancas.jpg">
+			<img src="/assets/criancas.jpg">
 			<p>
 				Nasceu em 2002 com o intuito de atender a jovens da periferia da Região Metropolitana do Recife,
 				contribuindo para a inclusão social através da profissionalização de jovens que aprendem e passam 
@@ -70,10 +70,10 @@
 	<section id="tambores">
 		<a name="tambores"> </a>
 		<h2>Tambores do Pilar</h2>
-		<a class="back-link" href="javascrip: void;" onclick="scrollToAnchor('top');">^ Início</a>
+		<a class="back-link" href="javascrip: void;" onclick="scrollToAnchor('top');">^ <%=t :top %></a>
 
 	    <div class="section-img">
-	      <img src="assets/carnaval.jpg">
+	      <img src="/assets/carnaval.jpg">
 	      <p>
 	        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	      </p>
@@ -86,10 +86,10 @@
 	<section id="10anos">
 		<a name="10anos"> </a>
 		<h2>10 anos</h2>
-		<a class="back-link" href="javascrip: void;" onclick="scrollToAnchor('top');">^ Início</a>
+		<a class="back-link" href="javascrip: void;" onclick="scrollToAnchor('top');">^ <%=t :top %></a>
 
 	    <div class="section-img">
-	      <img src="assets/tambores-10-anos.jpg">
+	      <img src="/assets/tambores-10-anos.jpg">
 	      <p>
 	        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	      </p>
@@ -102,7 +102,7 @@
 	<section id="partners">
 		<a name="partners"> </a>
 		<h2>Parceiros</h2>
-		<a class="back-link" href="javascrip: void;" onclick="scrollToAnchor('top');">^ Início</a>
+		<a class="back-link" href="javascrip: void;" onclick="scrollToAnchor('top');">^ <%=t :top %></a>
 
 	    <div class="section-img">
 	     	<iframe width="420" height="240" src="http://www.youtube.com/embed/SBP3Xc4iGjc" frameborder="0" allowfullscreen></iframe>
