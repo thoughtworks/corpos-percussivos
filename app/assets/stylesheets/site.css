@@ -1,9 +1,9 @@
 body {
 	padding-top: 40px;
 	background: #FFB;
-	background: #FEE275;
 	color: #922;
 	font-family: 'Quicksand', sans-serif;
+	background-color: #FEE275;
 }
 
 a, a:visited, a:active, a:hover { color: #922; }
@@ -49,21 +49,21 @@ img.logo-section { width: 240px; text-align: center;}
 /* Content */
 .hero-unit {
 	color: #333;
-	background: url('dinamarca.jpg') center -50px;
-	background-size: 1200px;
+	background: url(dinamarca.jpg) center -50px;
+	background-size: 100%;
 	height: 250px;
 	padding: 40px 30px;
+	margin-bottom: 20px;
 }
 
 .hero-unit .row-fluid {
-	background: #FFF;
-	opacity: 0.9;
+	background: rgba(250, 250, 250, 0.65);
 	padding: 10px;
 	margin: 0;
 }
 
 .texto-apresentacao {
-	font-size: 1.3em;
+	font-size: 1.4em;
 	line-height: 1.4em;
 	font-weight: bold;
 }
