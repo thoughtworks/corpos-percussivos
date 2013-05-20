@@ -1,10 +1,10 @@
 # Sample localization file for English. Add more files in this directory for other locales.
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
-en:
-  top: "Top"
-  
-  about_us: "About Us"
-  ten_years: "10 Years"
-  sponsors: "Sponsors"
-  contact: "Contact Us"
+pt:
+  top: "Início"
+
+  about_us: "Quem Somos"
+  ten_years: "10 Anos"
+  sponsors: "Parceiros"
+  contact: "Contatos"
