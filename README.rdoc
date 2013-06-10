@@ -11,7 +11,7 @@ among marginalized youth, and build social inclusion through education in arts a
 new forms of cultural expression, and to develop partnerships with local community groups and national and 
 international organizations.
 
-==== General Workflow
+==== How to contribute
 
 Please submit pull requests via feature branches using the semi-standard workflow of:
 
