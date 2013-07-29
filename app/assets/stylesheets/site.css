@@ -95,7 +95,7 @@ section .back-link {
 }
 .section-img img {
   float: left;
-  width: 300px;
+  width: 280px;
   max-height: 600px;
   border: 2px solid #FFF;
   -webkit-box-shadow: 0 3px 10px #888;
