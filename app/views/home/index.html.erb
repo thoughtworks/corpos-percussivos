@@ -36,34 +36,13 @@
 
 	<section id="quem-somos">
 		<a name="quem-somos"> </a>
-
-                <h2><%=t :about_us %></h2>
+        
+        <h2><%=t :about_us %></h2>
 		<a class="back-link" href="javascrip: void;" onclick="scrollToAnchor('top');">^ <%=t :top %></a>
 
 	    <div class="section-img">
 			<img src="/assets/criancas.jpg">
-			<p>
-				Nasceu em 2002 com o intuito de atender a jovens da periferia da Região Metropolitana do Recife,
-				contribuindo para a inclusão social através da profissionalização de jovens que aprendem e passam
-				a ensinar música, enfocando esta formação musical, através da valorização do sujeito e do desenvolvimento das habilidades.
-			</p>
-			<p>
-				Tem como objetivo geral a inclusão social fomentando a profissionalização.
-				Como objetivos específicos a iniciativa traz: a preservação da identidade cultural;
-				a educação através da arte e da cultura favorecendo a integração social e o acesso à cultura;
-				o estímulo à cidadania; o fortalecimento das expressões artísticas dos ciclos culturais;
-				o estímulo as novas formas de expressões culturais; o incentivo ao intercâmbio de diferentes organizações:
-				nacionais e internacionais; o incentivo a associações e organizações educacionais das comunidades para
-				que difundam e mantenham as manifestações sócio-culturais.
-			</p>
-
-			<p>
-				As aulas/oficinas e workshops são ministradas pelo idealizador do Grupo,
-				Jorge Martins e pelos próprios jovens. Além das oficinas o Grupo Corpos Percussivos,
-				(formado por jovens alunos), apresentam-se em vários palcos levando em seu repertório ritmos
-				diversos como Maracatu, Afoxé, Forró, Samba, Samba-reggae, Funk, revestidos de uma roupagem universal.
-				 é a junção de tradição, modernidade e criatividade, formando um som autêntico.
-			</p>
+			<%= t('about_us_text').join().html_safe  %>
 	    </div>
 	</section>
 
@@ -74,12 +53,7 @@
 
 	    <div class="section-img">
 	      <img src="/assets/carnaval.jpg">
-	      <p>
-	        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. El Barto was here.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	      </p>
-	      <p>
-	        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. El Barto was here too.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	      </p>
+			<%= t('tambores_text').join().html_safe  %>
 	    </div>
 	</section>
 
