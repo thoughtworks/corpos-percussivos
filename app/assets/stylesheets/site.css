@@ -88,23 +88,25 @@ section h2 {
 
 section .back-link {
 	float: right;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 10px;
 }
 
 .section-img {
   position: relative;
+  text-align: justify;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .section-img img {
   float: left;
-  width: 280px;
+  width: 300px;
   max-height: 600px;
   border: 2px solid #FFF;
+  margin-bottom: 20px;
+  margin-right: 20px;
   -webkit-box-shadow: 0 3px 10px #888;
-}
-
-.section-img p {
-  float: left;
-  margin-left: 2%;
-  width: 66%;
 }
 
 /* Footer */
