@@ -1,85 +1,77 @@
 <div class="content container">
-	<div class="hero-unit">
-		<div class="row-fluid welcome-section">
-			<div class="span5 offset1 texto-apresentacao">
-				<p> <img src="/assets/logo.png" id="logo"/> <br />
-					É uma entidade do terceiro setor que desenvolve atividades de ensino
-					e criação musical na Região Metropolitana do Recife
-				</p>
-			</div>
-			<div class="span5">
-				<iframe width="420" height="240" src="http://www.youtube.com/embed/as6KGingtw0" frameborder="0" allowfullscreen></iframe>
-			</div>
-		</div>
-	</div>
+  <div class="hero-unit">
+    <div class="row-fluid welcome-section">
+      <div class="span5 offset1 texto-apresentacao">
+        <p> <img src="/assets/logo.png" id="logo"/> <br />
+          É uma entidade do terceiro setor que desenvolve atividades de ensino
+          e criação musical na Região Metropolitana do Recife
+        </p>
+      </div>
+      <div class="span5">
+        <iframe width="420" height="240" src="http://www.youtube.com/embed/as6KGingtw0" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
 
-	<div class="row-fluid photo-menu">
-		<div class="span3">
-			<span class="badge badge-important">
-				<a href="#" onclick="scrollToAnchor('quem-somos');"><%=t :about_us %> </a>
-			</span>
-			<img src="/assets/criancas.jpg" class="img-polaroid">
-		</div>
-		<div class="span3">
-			<span class="badge badge-important">Tambores do Pilar</span>
-			<img src="/assets/carnaval.jpg" class="img-polaroid">
-		</div>
-		<div class="span3">
-			<span class="badge badge-important"><%=t :ten_years %></span>
-			<img src="/assets/criancas.jpg" class="img-polaroid">
-		</div>
-		<div class="span3">
-			<span class="badge badge-important"><%=t :sponsors %></span>
-			<img src="/assets/partners.jpg" class="img-polaroid">
-		</div>
-	</div>
+  <div class="row-fluid photo-menu">
+    <div class="span3">
+      <span class="badge badge-important">
+        <a href="#" onclick="scrollToAnchor('quem-somos');"><%=t :about_us %> </a>
+      </span>
+      <img src="/assets/criancas.jpg" class="img-polaroid">
+    </div>
+    <div class="span3">
+      <span class="badge badge-important">Tambores do Pilar</span>
+      <img src="/assets/carnaval.jpg" class="img-polaroid">
+    </div>
+    <div class="span3">
+      <span class="badge badge-important"><%=t :ten_years %></span>
+      <img src="/assets/criancas.jpg" class="img-polaroid">
+    </div>
+    <div class="span3">
+      <span class="badge badge-important"><%=t :sponsors %></span>
+      <img src="/assets/partners.jpg" class="img-polaroid">
+    </div>
+  </div>
+  <section id="quem-somos">
+    <a name="quem-somos"> </a>
+    <h2><%=t :about_us %></h2>
+    <a class="back-link" href="javascrip: void;" onclick="scrollToAnchor('top');">^ <%=t :top %></a>
+      <div class="section-img">
+        <img src="/assets/criancas.jpg">
+        <%= t('about_us_text').join().html_safe  %>
+      </div>
+  </section>
 
-	<section id="quem-somos">
-		<a name="quem-somos"> </a>
-        
-        <h2><%=t :about_us %></h2>
-		<a class="back-link" href="javascrip: void;" onclick="scrollToAnchor('top');">^ <%=t :top %></a>
+  <section id="tambores">
+    <a name="tambores"> </a>
+    <h2>Tambores do Pilar</h2>
+    <a class="back-link" href="javascrip: void;" onclick="scrollToAnchor('top');">^ <%=t :top %></a>
+      <div class="section-img">
+          <img src="/assets/carnaval.jpg">
+          <%= t('tambores_text').join().html_safe  %>
+      </div>
+  </section>
 
-	    <div class="section-img">
-			<img src="/assets/criancas.jpg">
-			<%= t('about_us_text').join().html_safe  %>
-	    </div>
-	</section>
+  <section id="10anos">
+    <a name="10anos"> </a>
+    <h2><%=t :ten_years%></h2>
+    <a class="back-link" href="javascrip: void;" onclick="scrollToAnchor('top');">^ <%=t :top %></a>
+    <div class="section-img">
+      <img src="/assets/tambores-10-anos.jpg">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <br><br>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </section>
 
-	<section id="tambores">
-		<a name="tambores"> </a>
-		<h2>Tambores do Pilar</h2>
-		<a class="back-link" href="javascrip: void;" onclick="scrollToAnchor('top');">^ <%=t :top %></a>
-
-	    <div class="section-img">
-	      <img src="/assets/carnaval.jpg">
-			<%= t('tambores_text').join().html_safe  %>
-	    </div>
-	</section>
-
-	<section id="10anos">
-		<a name="10anos"> </a>
-                <h2><%=t :ten_years %></h2>
-		<a class="back-link" href="javascrip: void;" onclick="scrollToAnchor('top');">^ <%=t :top %></a>
-
-	    <div class="section-img">
-	      <img src="/assets/tambores-10-anos.jpg">
-	      <p>
-	        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	      </p>
-	      <p>
-	        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	      </p>
-	    </div>
-	</section>
-
-	<section id="partners">
-		<a name="partners"> </a>
-                <h2><%=t :sponsors%></h2>
-		<a class="back-link" href="javascrip: void;" onclick="scrollToAnchor('top');">^ <%=t :top %></a>
-
-	    <div class="section-img">
-	     	<iframe width="420" height="240" src="http://www.youtube.com/embed/SBP3Xc4iGjc" frameborder="0" allowfullscreen></iframe>
-	    </div>
-	</section>
+  <section id="partners">
+    <a name="partners"> </a>
+    <h2><%=t :sponsors%></h2>
+    <a class="back-link" href="javascrip: void;" onclick="scrollToAnchor('top');">^ <%=t :top %></a>
+      <div class="section-img">
+        <iframe width="420" height="240" src="http://www.youtube.com/embed/SBP3Xc4iGjc" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+>>>>>>> upstream/master
 </div>
