@@ -26,11 +26,11 @@
         <div class="container">
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li><a href="#" onclick="scrollToAnchor('quem-somos');"> <%=t :about_us %> </a></li>
-              <li><a href="#" onclick="scrollToAnchor('tambores');">Tambores do Pilar</a></li>
-              <li><a href="#" onclick="scrollToAnchor('10anos');"> <%=t :ten_years %> </a></li>
-              <li><a href="#partners"><%=t :sponsors %></a></li>
-              <li><a href="#" onclick="scrollToAnchor('contatos');"><%=t :contact %></a></li>
+              <li><a class="nav-link" href="#quem-somos"> <%=t :about_us %> </a></li>
+              <li><a class="nav-link" href="#tambores">Tambores do Pilar</a></li>
+              <li><a class="nav-link" href="#10anos"> <%=t :ten_years %> </a></li>
+              <li><a class="nav-link" href="#partners"><%=t :sponsors %></a></li>
+              <li><a class="nav-link" href="#contatos"><%=t :contact %></a></li>
             </ul>
             
             <ul class="nav pull-right">
@@ -45,8 +45,7 @@
 
   	<%= yield %>
   	
-    <div class="footer">
-    	<a name="contatos"> </a>
+    <div id="contatos" class="footer">
 	   	<div class="footer-logo"> </div>
 	    <div class="row">
 			<div class="span4 offset2">
@@ -59,6 +58,5 @@
 		</div>
     </div>
 
-	<%= javascript_include_tag "application" %>
-	<%= javascript_include_tag "ui" %>
+	<%= javascript_include_tag "application" %> <%= javascript_include_tag "ui" %>
 </html>
