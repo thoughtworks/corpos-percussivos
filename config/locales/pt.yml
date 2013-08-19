@@ -8,8 +8,13 @@ pt:
   ten_years: "10 Anos"
   sponsors: "Parceiros"
   contact: "Contatos"
-  
-  about_us_text: "O Corpos Percussivos é um grupo voltado para a inclusão social e para a profissionalização de jovens através da musicalidade. Através da música e da cultura, essa instituição tem feito grande diferença nas comunidades onde atua.</p>
-  <p>Idealizado por Jorge Martins, o Corpos se insere como agente de mudança nos jovens habitantes da periferia da região metropolitana do Recife. Jorge - em conjunto com os jovens - ministra aulas, oficinas, workshops e se apresenta em palcos no Brasil e no mundo.</p>
-  <p>O repertório do grupo é composto por diversos ritmos como o Maracatu, Afoxé, Forró, Samba, Samba-Reggae e Funk. O Corpos Percussivos valoriza a criatividade e a inovação integrada à tradição, fazendo da criação artística uma de suas atividades principais.</p>"
 
+  about_us_text:
+    - <p>O Corpos Percussivos é um grupo voltado para a inclusão social e para a profissionalização de jovens através da musicalidade. Através da música e da cultura, essa instituição tem feito grande diferença nas comunidades onde atua.</p>
+    - <p>Idealizado por Jorge Martins, o Corpos se insere como agente de mudança nos jovens habitantes da periferia da região metropolitana do Recife. Jorge - em conjunto com os jovens - ministra aulas, oficinas, workshops e se apresenta em palcos no Brasil e no mundo.</p>
+    - <p>O repertório do grupo é composto por diversos ritmos como o Maracatu, Afoxé, Forró, Samba, Samba-Reggae e Funk. O Corpos Percussivos valoriza a criatividade e a inovação integrada à tradição, fazendo da criação artística uma de suas atividades principais.</p>
+
+  tambores_text:
+   - <p>O Tambores do Pilar é uma das ações do Corpos Percussivos. É um grupo de percussão que teve início em 2002 e desenvolve atividades musicais e educativas direcionadas a jovens da Comunidade do Pilar, Região Metropolitana de Recife.</p>
+   - <p>Os alunos participam de oficinas que têm didática e metodologias desenvolvidas por Jorge Martins e focam nas tradições e expressões da cultura popular brasileira e afro-descendente.</p>
+   - <p>Por meio da música e da arte, o Tambores do Pilar tem impactado e modificado a vida de muitos jovens, fazendo-os superar a difícil realidade na qual estão inseridos.</p>
